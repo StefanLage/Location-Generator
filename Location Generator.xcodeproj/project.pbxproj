@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F840898418C2268F00643ABC /* LGWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = F840898318C2268F00643ABC /* LGWindow.m */; };
+		F840898718C226CE00643ABC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F840898618C226CE00643ABC /* Icon.png */; };
 		F8A6202B18BFF860003BA51B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8A6202A18BFF860003BA51B /* Cocoa.framework */; };
 		F8A6203518BFF860003BA51B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8A6203318BFF860003BA51B /* InfoPlist.strings */; };
 		F8A6203718BFF860003BA51B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A6203618BFF860003BA51B /* main.m */; };
@@ -14,24 +16,13 @@
 		F8A6203E18BFF860003BA51B /* LGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A6203D18BFF860003BA51B /* LGAppDelegate.m */; };
 		F8A6204118BFF860003BA51B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8A6203F18BFF860003BA51B /* MainMenu.xib */; };
 		F8A6204318BFF860003BA51B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8A6204218BFF860003BA51B /* Images.xcassets */; };
-		F8A6204A18BFF860003BA51B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8A6204918BFF860003BA51B /* XCTest.framework */; };
-		F8A6204B18BFF860003BA51B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8A6202A18BFF860003BA51B /* Cocoa.framework */; };
-		F8A6205318BFF860003BA51B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8A6205118BFF860003BA51B /* InfoPlist.strings */; };
-		F8A6205518BFF860003BA51B /* Location_GeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A6205418BFF860003BA51B /* Location_GeneratorTests.m */; };
 		F8A6206118BFFA42003BA51B /* gpx-generator.py in Resources */ = {isa = PBXBuildFile; fileRef = F8A6206018BFFA42003BA51B /* gpx-generator.py */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		F8A6204C18BFF860003BA51B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F8A6201F18BFF860003BA51B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F8A6202618BFF860003BA51B;
-			remoteInfo = "Location Generator";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		F840898218C2268F00643ABC /* LGWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGWindow.h; sourceTree = "<group>"; };
+		F840898318C2268F00643ABC /* LGWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGWindow.m; sourceTree = "<group>"; };
+		F840898618C226CE00643ABC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		F8A6202718BFF860003BA51B /* Location Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Location Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8A6202A18BFF860003BA51B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		F8A6202D18BFF860003BA51B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -46,11 +37,7 @@
 		F8A6203D18BFF860003BA51B /* LGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGAppDelegate.m; sourceTree = "<group>"; };
 		F8A6204018BFF860003BA51B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		F8A6204218BFF860003BA51B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F8A6204818BFF860003BA51B /* Location GeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Location GeneratorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8A6204918BFF860003BA51B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		F8A6205018BFF860003BA51B /* Location GeneratorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Location GeneratorTests-Info.plist"; sourceTree = "<group>"; };
-		F8A6205218BFF860003BA51B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F8A6205418BFF860003BA51B /* Location_GeneratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Location_GeneratorTests.m; sourceTree = "<group>"; };
 		F8A6205E18BFF971003BA51B /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		F8A6206018BFFA42003BA51B /* gpx-generator.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = "gpx-generator.py"; path = "External/gpx-generator.py"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,26 +51,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F8A6204518BFF860003BA51B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F8A6204B18BFF860003BA51B /* Cocoa.framework in Frameworks */,
-				F8A6204A18BFF860003BA51B /* XCTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F840898518C226B700643ABC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F840898618C226CE00643ABC /* Icon.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		F8A6201E18BFF860003BA51B = {
 			isa = PBXGroup;
 			children = (
 				F8A6203018BFF860003BA51B /* Location Generator */,
-				F8A6204E18BFF860003BA51B /* Location GeneratorTests */,
 				F8A6202918BFF860003BA51B /* Frameworks */,
 				F8A6202818BFF860003BA51B /* Products */,
 				F8A6205F18BFFA34003BA51B /* External */,
+				F840898518C226B700643ABC /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,7 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				F8A6202718BFF860003BA51B /* Location Generator.app */,
-				F8A6204818BFF860003BA51B /* Location GeneratorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,6 +107,8 @@
 				F8A6205E18BFF971003BA51B /* Constants.h */,
 				F8A6203C18BFF860003BA51B /* LGAppDelegate.h */,
 				F8A6203D18BFF860003BA51B /* LGAppDelegate.m */,
+				F840898218C2268F00643ABC /* LGWindow.h */,
+				F840898318C2268F00643ABC /* LGWindow.m */,
 				F8A6203F18BFF860003BA51B /* MainMenu.xib */,
 				F8A6204218BFF860003BA51B /* Images.xcassets */,
 				F8A6203118BFF860003BA51B /* Supporting Files */,
@@ -137,24 +124,6 @@
 				F8A6203618BFF860003BA51B /* main.m */,
 				F8A6203818BFF860003BA51B /* Location Generator-Prefix.pch */,
 				F8A6203918BFF860003BA51B /* Credits.rtf */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		F8A6204E18BFF860003BA51B /* Location GeneratorTests */ = {
-			isa = PBXGroup;
-			children = (
-				F8A6205418BFF860003BA51B /* Location_GeneratorTests.m */,
-				F8A6204F18BFF860003BA51B /* Supporting Files */,
-			);
-			path = "Location GeneratorTests";
-			sourceTree = "<group>";
-		};
-		F8A6204F18BFF860003BA51B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				F8A6205018BFF860003BA51B /* Location GeneratorTests-Info.plist */,
-				F8A6205118BFF860003BA51B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -187,24 +156,6 @@
 			productReference = F8A6202718BFF860003BA51B /* Location Generator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F8A6204718BFF860003BA51B /* Location GeneratorTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F8A6205B18BFF860003BA51B /* Build configuration list for PBXNativeTarget "Location GeneratorTests" */;
-			buildPhases = (
-				F8A6204418BFF860003BA51B /* Sources */,
-				F8A6204518BFF860003BA51B /* Frameworks */,
-				F8A6204618BFF860003BA51B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F8A6204D18BFF860003BA51B /* PBXTargetDependency */,
-			);
-			name = "Location GeneratorTests";
-			productName = "Location GeneratorTests";
-			productReference = F8A6204818BFF860003BA51B /* Location GeneratorTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -214,11 +165,6 @@
 				CLASSPREFIX = LG;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Stefan Lage";
-				TargetAttributes = {
-					F8A6204718BFF860003BA51B = {
-						TestTargetID = F8A6202618BFF860003BA51B;
-					};
-				};
 			};
 			buildConfigurationList = F8A6202218BFF860003BA51B /* Build configuration list for PBXProject "Location Generator" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -234,7 +180,6 @@
 			projectRoot = "";
 			targets = (
 				F8A6202618BFF860003BA51B /* Location Generator */,
-				F8A6204718BFF860003BA51B /* Location GeneratorTests */,
 			);
 		};
 /* End PBXProject section */
@@ -244,19 +189,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F840898718C226CE00643ABC /* Icon.png in Resources */,
 				F8A6203518BFF860003BA51B /* InfoPlist.strings in Resources */,
 				F8A6204318BFF860003BA51B /* Images.xcassets in Resources */,
 				F8A6203B18BFF860003BA51B /* Credits.rtf in Resources */,
 				F8A6204118BFF860003BA51B /* MainMenu.xib in Resources */,
 				F8A6206118BFFA42003BA51B /* gpx-generator.py in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F8A6204618BFF860003BA51B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F8A6205318BFF860003BA51B /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,27 +206,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8A6203718BFF860003BA51B /* main.m in Sources */,
+				F840898418C2268F00643ABC /* LGWindow.m in Sources */,
 				F8A6203E18BFF860003BA51B /* LGAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F8A6204418BFF860003BA51B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F8A6205518BFF860003BA51B /* Location_GeneratorTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F8A6204D18BFF860003BA51B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F8A6202618BFF860003BA51B /* Location Generator */;
-			targetProxy = F8A6204C18BFF860003BA51B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F8A6203318BFF860003BA51B /* InfoPlist.strings */ = {
@@ -313,14 +236,6 @@
 				F8A6204018BFF860003BA51B /* Base */,
 			);
 			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		F8A6205118BFF860003BA51B /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F8A6205218BFF860003BA51B /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -422,46 +337,6 @@
 			};
 			name = Release;
 		};
-		F8A6205C18BFF860003BA51B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Location Generator.app/Contents/MacOS/Location Generator";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Location Generator/Location Generator-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Location GeneratorTests/Location GeneratorTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		F8A6205D18BFF860003BA51B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Location Generator.app/Contents/MacOS/Location Generator";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Location Generator/Location Generator-Prefix.pch";
-				INFOPLIST_FILE = "Location GeneratorTests/Location GeneratorTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -481,14 +356,7 @@
 				F8A6205A18BFF860003BA51B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		F8A6205B18BFF860003BA51B /* Build configuration list for PBXNativeTarget "Location GeneratorTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F8A6205C18BFF860003BA51B /* Debug */,
-				F8A6205D18BFF860003BA51B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
